@@ -55,11 +55,18 @@ A backend egy PHP alapú REST API, amely a frontenddel JSON formátumban kommuni
 
 ## Telepítési útmutató
 
+
 ### Frontend telepítése és indítása
 1. Navigálj a `13A_Projekt_webshop-Frontend/react` mappába terminálban vagy parancssorban.
-2. Futtasd az `npm install` parancsot a szükséges csomagok telepítéséhez (Node.js szükséges).
-3. Indítsd a fejlesztői szervert az `npm run dev` paranccsal. Az alkalmazás alapértelmezett címe: http://localhost:5173
-4. A forráskód módosítása után a szerver automatikusan újratölti az oldalt.
+2. Ha a Node.js nincs globálisan telepítve, de a projekt mappájában megtalálható (pl. node.exe vagy npm.cmd), akkor a következő parancsokat használd:
+	- `.\node.exe .\node_modules\npm\bin\npm-cli.js install`
+	- `.\node.exe .\node_modules\npm\bin\npm-cli.js run dev`
+	- vagy ha van `.\npm.cmd`, akkor: `.\npm.cmd install` és `.\npm.cmd run dev`
+3. Ha a Node.js globálisan telepítve van, akkor a szokásos módon:
+	- `npm install`
+	- `npm run dev`
+4. Az alkalmazás alapértelmezett címe: http://localhost:5173
+5. A forráskód módosítása után a szerver automatikusan újratölti az oldalt.
 
 ### Backend telepítése és indítása
 1. Másold a `backend` mappát egy PHP-t támogató szerverre (pl. XAMPP, MAMP, Apache, nginx).
