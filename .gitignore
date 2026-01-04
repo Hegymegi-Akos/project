@@ -1,0 +1,10 @@
+# Környezeti változók - NE COMMITOLD GIT-BE!
+.env
+.env.local
+
+# Backend fájlok
+/backend/uploads/*
+!/backend/uploads/.htaccess
+
+# PHP
+/backend/vendor/
