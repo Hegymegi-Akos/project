@@ -24,3 +24,50 @@ dist-ssr
 *.sw?
 
 
+=======
+# Környezeti változók - NE COMMITOLD GIT-BE!
+.env
+.env.local
+
+# Backend fájlok
+/backend/uploads/*
+!/backend/uploads/.htaccess
+
+# PHP
+/backend/vendor/
+>>>>>>> 932477e329273d737bbe24b0f1a96ddeaed1ecad
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Környezeti változók - NE COMMITOLD GIT-BE!
+.env
+.env.local
+
+# Backend fájlok
+/backend/uploads/*
+!/backend/uploads/.htaccess
+
+# PHP
+/backend/vendor/
